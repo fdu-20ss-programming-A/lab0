@@ -52,17 +52,17 @@ MinGW(Minimalist GNU For Windows)是个精简的Windows平台C/C++编译器。Mi
 
 打开下载好的`mingw-get-setup.exe`安装程序，按照默认选项进行安装。
 
-![MinGW安装](images\image-20200911155030937.png)
+![MinGW安装](images/image-20200911155030937.png)
 
 安装路径默认在C盘，我们也可以自定义安装位置。
 
-![MinGW安装路径](images\image-20200911155322362.png)
+![MinGW安装路径](images/image-20200911155322362.png)
 
 > 注意：安装的位置将会在后面使用到，所以请务必记住安装的路径。
 
 MinGW安装结束后，我们将会看到MinGW的包管理页面。
 
-![包管理页面](images\image-20200911160035400-1599897557043.png)
+![包管理页面](images/image-20200911160035400-1599897557043.png)
 
 #### Step 2：GCC编译器以及GDB调试器
 
@@ -70,13 +70,13 @@ MinGW安装结束后，我们将会看到MinGW的包管理页面。
 
 在MinGW包管理页面中，找到`mingw32-gcc-g++-bin`,点击选择`Mark for Installation`。
 
-![GCC编译器](images\image-20200911161341097.png)
+![GCC编译器](images/image-20200911161341097.png)
 
 ##### 准备GDB调试器
 
 点击MinGW包管理工具左侧`All Packages`，再点击`MinGW Base System`。在右侧列表中寻找`mingw32-gdb-bin`，点击选择`Mark for Installation`。
 
-![image-20200911161749691](images\image-20200911161749691.png)
+![image-20200911161749691](images/image-20200911161749691.png)
 
 ##### 开始下载相关软件
 
@@ -90,11 +90,11 @@ MinGW安装结束后，我们将会看到MinGW的包管理页面。
 
 打开 控制面板 -> 系统和安全 -> 系统 -> 高级系统设置 -> 环境变量。
 
-![环境变量](images\image-20200911163338217.png)
+![环境变量](images/image-20200911163338217.png)
 
 在`系统变量`中寻找`Path`，点击编辑。
 
-![编辑环境变量](images\image-20200911163639336.png)
+![编辑环境变量](images/image-20200911163639336.png)
 
 点击`新建`，在尾部插入MinGW安装的路径，点击确认。
 
@@ -108,17 +108,17 @@ MinGW安装结束后，我们将会看到MinGW的包管理页面。
 
 键盘输入`win+r`，打开的页面中输入cmd，点击确定。
 
-![运行cmd](images\image-20200911170115234.png)
+![运行cmd](images/image-20200911170115234.png)
 
 完成后，将打开命令行终端。
 
-![终端](images\image-20200911170338385.png)
+![终端](images/image-20200911170338385.png)
 
 ##### 测试GCC与GDB
 
 在终端中输入`gcc -v`查看GCC的版本信息，输入`gdb -v`查看gdb版本。
 
-![gcc与gdb版本](images\image-20200911170438031.png)
+![gcc与gdb版本](images/image-20200911170438031.png)
 
 如果出现以上结果，则说明安装成功。如果出现gcc命令不存在的提示说明过程有误，建议检查环境变量的路径是否正确。
 
@@ -136,7 +136,7 @@ MinGW安装结束后，我们将会看到MinGW的包管理页面。
 
 打开安装包`codeblocks-20.03-setup.exe`，按照提示，使用默认配置即可。
 
-![cb安装位置](images\image-20200911191048132.png)
+![cb安装位置](images/image-20200911191048132.png)
 
 Code::Blocks安装位置可以根据自身情况自由选择。
 
@@ -146,15 +146,15 @@ Code::Blocks安装位置可以根据自身情况自由选择。
 
 安装完成后，打开Code::Blocks。
 
-![cb安装完成](images\image-20200911191548378.png)
+![cb安装完成](images/image-20200911191548378.png)
 
 打开 `Settings`->`Compiler`->`Global compiler settings`->`Toolchain executables`。修改`Compiler's installation directory` 为MinGW/bin的路径。
 
-![GCC路径](images\image-20200911192120165.png)
+![GCC路径](images/image-20200911192120165.png)
 
 打开`Settings` -> `Default`，修改`executable path`为MinGW/bin/gdb.exe的路径。
 
-![配置GDB](images\image-20200911192534940.png)
+![配置GDB](images/image-20200911192534940.png)
 
 至此，Code::Blocks开发环境准备完毕，同学们可以根据课程内容尝试在Code::Blocks上运行程序。
 
@@ -164,7 +164,7 @@ Code::Blocks安装位置可以根据自身情况自由选择。
 
 `command + 空格` 打开聚焦搜索，在搜索框中输入 `terminal`，点击下方 “终端” 或直接回车，即可打开终端
 
-![打开终端](images\image-20200911222300273.png)
+![打开终端](images/image-20200911222300273.png)
 
 #### Step 2: 检测GCC编译器
 
@@ -176,7 +176,7 @@ $ gcc -v
 
 若终端返回以下内容，则说明你已经安装好 `gcc` 了，若没有返回类似内容，你需要在 `App Store` 内下载 `Xcode` 软件，再重新打开终端尝试。
 
-![终端测试gcc](images\image-20200911222542096.png)
+![终端测试gcc](images/image-20200911222542096.png)
 
 #### Step 3: 安装Code::Blocks或者Clion
 
@@ -200,7 +200,7 @@ Hello World是著名的贝尔实验室提出的范式了，学任意编程语言
 #include <stdio.h>
 
 int main(){
-	printf("Hello World\n");
+	printf("Hello World/n");
 	return 0;
 }
 ```
@@ -236,7 +236,7 @@ $ gcc helloworld.c -o helloworld.exe
 
 ```
 # windows用户
-$ .\helloworld.exe
+$ ./helloworld.exe
 # MAC OS用户
 $ ./helloworld.exe
 ```
