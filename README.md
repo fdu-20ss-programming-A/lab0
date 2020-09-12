@@ -358,3 +358,57 @@ $ .\helloworld.exe
 看看能否输出`Hello World`？
 
 如果成功输出`Hello World`，那么恭喜，编程生涯正式开启！
+
+## 3.其它编程工具及资源介绍
+
+### FTP介绍
+
+~~已经是时代的眼泪~~
+
+FTP 站点类似于云盘，在FTP上可以下载软件学院的的课程资料
+
+进入FTP之前**必须连上学校内网**
+
+源地址：`ftp://10.132.141.33`
+
+![figure](https://raw.githubusercontent.com/Java-B-2019/lab0/master/images/ftp_line.jpg)
+
+1. 使用ftp客户端或者Windows资源管理器，在学校内网下访问，用户名与密码都是学号，登入之后请改密码。
+2. 还有一个无门槛的账户（用户名 `ss` 密码 `ss`），提供紧急使用。
+3. Mac端推荐使用fileZilla作为客户端，地址在学院文件夹里。
+4. 然后进入 `/classes/20/201 程序设计A（陈荣华）`
+
+![image-20200912221759448](C:\Users\jzcx\AppData\Roaming\Typora\typora-user-images\image-20200912221759448.png)
+
+### 其他编程工具
+
+- #### 集成开发环境(IDE)
+
+  集成开发环境（Intergreated Development Environment）是辅助程序员开发的应用软件的一个总称
+
+  在实际开发中，除了运行程序必须的工具外，我们往往还需要很多其他辅助软件，例如语言编辑器、自动建立工具、除错器等等。这些工具通常被打包在一起，统一发布和安装，例如 Clion、code::blocks等，它们统称为集成开发环境（IDE）
+
+  1. Visual Studio (for Windows)
+  2. Xcode (for Mac)
+
+- #### 轻量级文本编辑器
+
+  1. Visual Studio Code (强力推荐)
+  2. Atom
+  3. Sublime Text
+
+### 其他学习工具
+
+- #### 浏览器
+
+  [Google Chrome](https://www.google.cn/chrome/)
+
+  [Mozilla Firefox](http://www.firefox.com.cn/)
+
+- #### 常用网站
+
+  [CSDN](https://blog.csdn.net/)
+
+  [Stack Overflow](https://stackoverflow.com/)
+
+  
