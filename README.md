@@ -352,7 +352,7 @@ $ gcc helloworld.c -o helloworld.exe
 # windows用户
 $ .\helloworld.exe
 # MAC OS用户
-$ .\helloworld.exe
+$ ./helloworld.exe
 ```
 
 看看能否输出`Hello World`？
