@@ -369,9 +369,9 @@ FTP 站点类似于云盘，在FTP上可以下载软件学院的的课程资料
 
 进入FTP之前**必须连上学校内网**
 
-源地址：`ftp://10.132.141.33`
+源地址：`ftp://10.12.5.33`
 
-![figure](https://raw.githubusercontent.com/Java-B-2019/lab0/master/images/ftp_line.jpg)
+![image-20200914195050844](./images/image-20200914195050844.png)
 
 1. 使用ftp客户端或者Windows资源管理器，在学校内网下访问，用户名与密码都是学号，登入之后请改密码。
 2. 还有一个无门槛的账户（用户名 `ss` 密码 `ss`），提供紧急使用。
