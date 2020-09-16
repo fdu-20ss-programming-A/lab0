@@ -21,6 +21,12 @@
 - 黄蕙茹 [17302010080@fudan.edu.cn](http://17302010080@fudan.edu.cn/) hhr1035048971
 - 俞继涛 [17302010024@fudan.edu.cn](http://17302010024@fudan.edu.cn/) 18717972612
 
+### 课程微信群
+
+![课程微信群](./images/课程二维码.png)
+
+**注意**：加入课程群请备注 **姓名+学号+专业**，未实名的账户将在一周后被清理。课程群主要用于课程通知、课程讨论等与课程相关的事物，**切勿用于其他用途**。
+
 ### 课程安排
 软件工程，大一必修专业课，双学号必选，混合式教学
 周一 6-7 周五6-7 双周周五采取线上教学
@@ -160,6 +166,8 @@ MinGW(Minimalist GNU For Windows)是个精简的Windows平台C/C++编译器。Mi
 
 点击链接后，浏览器将会自动下载MinGW，等待下载完成即可。
 
+>超星课程中我们已经准备了相应的文件，同学们可以直接在课程资源中找到本次lab的所有安装包。具体路径为：超星主页->C语言程序设计->资料->C编译环境。
+
 ##### 安装MinGW
 
 > 注意：安装时请保证网络能够正常使用。
@@ -176,7 +184,7 @@ MinGW(Minimalist GNU For Windows)是个精简的Windows平台C/C++编译器。Mi
 
 MinGW安装结束后，我们将会看到MinGW的包管理页面。
 
-![包管理页面](images/image-20200911160035400-1599897557043.png)
+![GCC编译器](D:\Repository\fdu-20ss-programming-A\lab0\.assets\image-20200911161341097.png)
 
 #### Step 2：GCC编译器以及GDB调试器
 
@@ -197,6 +205,8 @@ MinGW安装结束后，我们将会看到MinGW的包管理页面。
 点击左上角的 `Installation` 菜单中的 `Apply changes` 选项，然后管理器将开始在线安装或更新被选中的组件。
 
 安装完成后关闭包管理器，如果由于某种原因安装未能成功，在退出程序前程序将给予提示，选择 `review changes` 选项重新安装即可。
+
+> 这一步如果出现GDB无法安装的问题，请去掉第二步的GDB选项，先下载GCC编译器。之后从超星资源中下载gdb-7.6.1-1-mingw32-bin.tar.lzma文件，解压后放入MinGW/bin文件夹中。
 
 #### Step3：配置环境变量
 
@@ -329,9 +339,9 @@ int main(){
 
 ```
 # Windows用户
-cd desktop
+$ cd desktop
 # MAC OS用户
-cd ~/desktop
+$ cd ~/desktop
 ```
 
 因为我们创建的文件在桌面上，所以我们能够在当前位置找到`helloworld.c`。
