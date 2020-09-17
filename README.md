@@ -324,7 +324,8 @@ Hello World是著名的贝尔实验室提出的范式了，学任意编程语言
 #include <stdio.h>
 
 int main(){
-	printf("Hello World/n");
+	/* 注意这里是\n不是/n，ORZ */
+	printf("Hello World\n");
 	return 0;
 }
 ```
